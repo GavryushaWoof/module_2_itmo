@@ -1,16 +1,16 @@
 //Задача 1
 let month = +prompt('Введите номер месяца', '1');
 switch (true) {
-    case month >= 1 && month <= 3:
+    case month == 12 || month == 1 && month == 2:
         alert('Зима');
         break;
-    case month >= 4 && month <= 6:
+    case month >= 3 && month <= 5:
         alert('Весна');
         break;
-    case month >= 7 && month <= 9:
+    case month >= 6 && month <= 8:
         alert('Лето');
         break;
-    case month >= 10 && month <= 12:
+    case month >= 9 && month <= 11:
         alert('Осень');
         break;
     default:
@@ -83,7 +83,7 @@ for (let i = 1; i <= 100; i++) {
 }
 
 //Задача 5
-let year = +prompt('Введите год');
+let year = +prompt('Введите год', '2000');
 if (year % 400 == 0 || year % 4 == 0 && year % 100 !== 0) {
     alert(year + ' - високосный год');
 } else {
@@ -91,3 +91,11 @@ if (year % 400 == 0 || year % 4 == 0 && year % 100 !== 0) {
 }
 
 //задача 6
+// let plate = +prompt('Введите кол-во тарелок', '0');
+// let detergents = +prompt('Введите кол-во моющего средства', '0');
+// if (plate == 0 || detergents == 0) {
+//     alert('Осталось ' + )
+// }
+// for () {
+
+// }
