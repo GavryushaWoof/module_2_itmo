@@ -1,7 +1,7 @@
 //Задача 1
 let month = +prompt('Введите номер месяца', '1');
 switch (true) {
-    case month == 12 || month == 1 && month == 2:
+    case month == 12 || month == 1 || month == 2:
         alert('Зима');
         break;
     case month >= 3 && month <= 5:
